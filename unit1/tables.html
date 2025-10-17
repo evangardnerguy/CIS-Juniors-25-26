@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Examples of HTML Tables</title>
+        <meta charset="UTF-8">
+    </head>
+</html>
+<body>
+    <h1>The Planets of Our Solar System</h1>
+    <caption>The planets in our system</caption>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Planet</th>
+                <th>Distance from Sun (million km)</th>
+                <th>Diameter (km)</th>
+                <th>Number of Moons</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th>Mercury</th>
+            <td>58</td>
+            <td>4,879</td>
+            <td>0</td>
+            <td>Terrestrial</td>
+            </tr>
+            <tr>
+            <th>Venus</th>
+            <td>108</td>
+            <td>12,104</td>
+            <td>0</td>
+            <td>Terrestrial</td>
+            </tr>
+            <tr>
+            <th>Earth</th>
+            <td>150</td>
+            <td>12,742</td>
+            <td>0</td>
+            <td>Terrestrial</td>
+            </tr>
+            <tr>
+            <th>Mars</th>
+            <td>228</td>
+            <td>6,779</td>
+            <td>2</td>
+            <td>Terrestrial</td>
+            </tr>
+            <tr>
+            <th>Jupiter</th>
+            <td>778</td>
+            <td>139,820</td>
+            <td>95</td>
+            <td>Gas Giant</td>
+            </tr>
+            <tr>
+            <th>Saturn</th>
+            <td>1,434</td>
+            <td>116,460</td>
+            <td>146</td>
+            <td>Gas Giant</td>
+            </tr>
+            <tr>
+            <th>Uranus</th>
+            <td>2,871</td>
+            <td>50,724</td>
+            <td>127</td>
+            <td>Ice Giant</td>
+            </tr>
+            <tr>
+            <th>Neptune</th>
+            <td>4,495</td>
+            <td>49,244</td>
+            <td>14</td>
+            <td>Ice Giant</td>
+            </tr>
+            <tfoot>
+
+            </tfoot>                        
+        </tbody>
+            <table border="2">
+        <thead>
+            <tr>
+                <th>Planet</th>
+                <th>Distance from Sun (million km)</th>
+                <th>Diameter (km)</th>
+                <th>Number of Moons</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th>Mercury</th>
+            <td>58</td>
+            <td>4,879</td>
+            <td>0</td>
+            <td rowspan="4">Terrestrial</td>
+            </tr>
+            <tr>
+            <th>Venus</th>
+            <td colspan="2">108</td>
+            
+            <td>0</td>
+            
+            </tr>
+            <tr>
+            <th>Earth</th>
+            <td>150</td>
+            <td>12,742</td>
+            <td>0</td>
+            
+            </tr>
+            <tr>
+            <th>Mars</th>
+            <td>228</td>
+            <td>6,779</td>
+            <td>2</td>
+            
+            </tr>
+            <tr>
+            <th>Jupiter</th>
+            <td>778</td>
+            <td>139,820</td>
+            <td>95</td>
+            <td rowspan="2">Gas Giant</td>
+            </tr>
+            <tr>
+            <th>Saturn</th>
+            <td>1,434</td>
+            <td>116,460</td>
+            <td>146</td>
+            
+            </tr>
+            <tr>
+            <th>Uranus</th>
+            <td>2,871</td>
+            <td>50,724</td>
+            <td>127</td>
+            <td rowspan="2">Ice Giant</td>
+            </tr>
+            <tr>
+            <th>Neptune</th>
+            <td>4,495</td>
+            <td>49,244</td>
+            <td>14</td>
+            
+            </tr>
+            <tfoot>
+                <tr>
+                    <th colspan="5"><p>&copy; 2025</p><th></th>
+                </tr>
+            </tfoot>                        
+        </tbody>
+    </table>
+    </body>
+</html>
